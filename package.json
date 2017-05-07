@@ -1,0 +1,12 @@
+{
+  "name": "ESOTrialsBot",
+  "version": "1.0.0",
+  "description": "A simple Discord bot to allow informal signups to events (being targeted at Elder Scrolls Online trials)",
+  "main": "index.js",
+  "repository": "https://github.com/mackenza/eso-trials-bot.git",
+  "author": "mackenza",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
