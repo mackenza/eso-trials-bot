@@ -13,4 +13,7 @@ const bot = new graf.Bot({
 });
 const client = bot
     .registerDefaults()
+    .registerModules([
+        ['signups', 'Event Signups']
+    ])
     .createClient();
