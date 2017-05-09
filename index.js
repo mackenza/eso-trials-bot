@@ -10,4 +10,7 @@ const bot = new graf.Bot({
     clientOptions: {
         disableEveryone: true
     }
-})
+});
+const client = bot
+    .registerDefaults()
+    .createClient();

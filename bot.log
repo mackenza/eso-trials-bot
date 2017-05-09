@@ -1,0 +1,9 @@
+2017-4-9 2:17:00.533 - info: Client created. bot=true, disableEveryone=true, apiRequestMethod=sequential, shardId=0, shardCount=0, messageCacheMaxSize=200, messageCacheLifetime=0, messageSweepInterval=0, fetchAllMembers=false, sync=false, restWsBridgeTimeout=5000, disabledEvents=[], restTimeOffset=500, large_threshold=250, compress=true, $os=linux, $browser=discord.js, $device=discord.js, $referrer=, $referring_domain=, version=6, version=7, host=https://discordapp.com, cdn=https://cdn.discordapp.com
+2017-4-9 2:17:00.537 - info: Logging in with token...
+2017-4-9 2:17:01.388 - info: Bot is ready; logged in as ESOTrialBot#9558 (ID: 310754461444472842)
+2017-4-9 2:20:56.827 - info: Client created. bot=true, disableEveryone=true, apiRequestMethod=sequential, shardId=0, shardCount=0, messageCacheMaxSize=200, messageCacheLifetime=0, messageSweepInterval=0, fetchAllMembers=false, sync=false, restWsBridgeTimeout=5000, disabledEvents=[], restTimeOffset=500, large_threshold=250, compress=true, $os=linux, $browser=discord.js, $device=discord.js, $referrer=, $referring_domain=, version=6, version=7, host=https://discordapp.com, cdn=https://cdn.discordapp.com
+2017-4-9 2:20:56.831 - info: Logging in with token...
+2017-4-9 2:20:57.690 - info: Bot is ready; logged in as ESOTrialBot#9558 (ID: 310754461444472842)
+2017-4-9 2:21:18.522 - info: Running info:help. args=, user=m0j0r1s1ng#3787, userID=277233428972437514, guild=mackenza-test, guildID=292770575384838145, messageID=311326745368330241
+2017-4-9 2:22:06.175 - info: Running info:help. args=, user=m0j0r1s1ng#3787, userID=277233428972437514, guild=null, guildID=null, messageID=311326945382105088
+2017-4-9 2:22:24.420 - info: Running info:about. args=, user=m0j0r1s1ng#3787, userID=277233428972437514, guild=null, guildID=null, messageID=311327021923827712
