@@ -1,12 +1,14 @@
 require('dotenv').config();
 
+const addEventCommand = require('./commands/signup/add');
+
 const graf = require('discord-graf');
 const bot = new graf.Bot({
     name: 'ESOTrialsBot',
     version: '1.0.0',
     about: 'A simple WIP Discord bot for ESO guilds to do signups for groups (e.g. trials)',
     token: process.env.TOKEN,
-    commandPrefix: '??',
+    commandPrefix: '!!',
     clientOptions: {
         disableEveryone: true
     }
@@ -14,6 +16,9 @@ const bot = new graf.Bot({
 const client = bot
     .registerDefaults()
     .registerModules([
-        ['signups', 'Event Signups']
+        ['events', 'Events & Signups']
+    ])
+    .registerCommands([
+        addEventCommand
     ])
     .createClient();
