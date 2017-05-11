@@ -9,6 +9,6 @@
   "dependencies": {
     "discord-graf": "^0.15.4",
     "dotenv": "^4.0.0",
-    "lokijs": "^1.4.3"
+    "nedb": "^1.8.0"
   }
 }
