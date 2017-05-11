@@ -8,7 +8,7 @@ const bot = new graf.Bot({
     version: '1.0.0',
     about: 'A simple WIP Discord bot for ESO guilds to do signups for groups (e.g. trials)',
     token: process.env.TOKEN,
-    commandPrefix: '!!',
+    commandPrefix: '.',
     clientOptions: {
         disableEveryone: true
     }

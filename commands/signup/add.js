@@ -19,8 +19,8 @@ module.exports = class AddEventCommand extends graf.Command {
         });
     }
 
-    run(message, args) {
+    async run(message, args) {
        if(!args[0]) throw new graf.CommandFormatError(this, message.guild);
-       return Promise.resolve('The command was: ' + message.content); 
+       return Promise.resolve({plain: `The command was: \`${args[1]}\``});
     }
 }
