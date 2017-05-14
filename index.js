@@ -1,5 +1,5 @@
 require('dotenv').config();
-
+const botDB = require('./database/database').botDB;
 const addEventCommand = require('./commands/signup/add');
 
 const graf = require('discord-graf');
@@ -22,3 +22,5 @@ const client = bot
         addEventCommand
     ])
     .createClient();
+
+botDB.init();
